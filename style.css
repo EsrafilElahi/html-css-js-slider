@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 80%;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: rosybrown;
+  letter-spacing: 2px;
+}
+
+.left-btn {
+  text-align: center;
+  margin-right: 1.5em;
+}
+
+.right-btn {
+  text-align: center;
+  margin-left: 1.5em;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  transition: all 0.5s
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
